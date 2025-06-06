@@ -1,0 +1,20 @@
+{
+  "name": "aula01-mocks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/service.test.js"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "author": "kianelucia",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "sinon": "^15.0.1"
+  }
+}
