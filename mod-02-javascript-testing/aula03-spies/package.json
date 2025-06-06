@@ -1,9 +1,9 @@
 {
-  "name": "aula02-stubs",
+  "name": "aula03-spies",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "node src/service.test.js"
+    "test": "node src/fibonacci.test.js"
   },
   "engines": {
     "node": "18"

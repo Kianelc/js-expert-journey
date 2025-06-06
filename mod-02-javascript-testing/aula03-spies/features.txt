@@ -1,0 +1,5 @@
+Fibonacci Rules
+
+1. The sequence must start with the numbers '0' and '1'.
+2. Each subsequent number must be the sum of the two preceding numbers.
+3. The sequence must contain at least two elements to be considered valid.
