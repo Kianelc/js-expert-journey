@@ -1,0 +1,36 @@
+{
+  "name": "js-expert-journey",
+  "version": "1.0.0",
+  "description": "Repositório para acompanhar meu aprendizado no curso **JS Expert**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kianelc/js-expert-journey.git"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "testes",
+    "curso",
+    "js-expert"
+  ],
+  "author": "Kiane L. Casagrande",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kianelc/js-expert-journey/issues"
+  },
+  "homepage": "https://github.com/Kianelc/js-expert-journey#readme",
+  "devDependencies": {
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

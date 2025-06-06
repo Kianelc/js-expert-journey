@@ -1,0 +1,5 @@
+Test Rules
+
+1. The file must contain the following fields in the header (first line): 'id', 'name', 'profession', and 'age'.
+2. The file must not be empty.
+3. The file must not exceed 4 lines in total, including the header.
