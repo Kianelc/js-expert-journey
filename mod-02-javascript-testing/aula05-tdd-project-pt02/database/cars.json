@@ -1,0 +1,23 @@
+[
+  {
+    "id": "7c80d4ff-61d4-4122-891a-82ec00efaa80",
+    "name": "ATS",
+    "releaseYear": 2025,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "9e19246d-d0c0-4955-9e6c-59ec0800788c",
+    "name": "Fiesta",
+    "releaseYear": 2024,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "41d32aa0-cc1a-4989-a291-d3005d4d0bf7",
+    "name": "911",
+    "releaseYear": 2024,
+    "available": true,
+    "gasAvailable": true
+  }
+]
