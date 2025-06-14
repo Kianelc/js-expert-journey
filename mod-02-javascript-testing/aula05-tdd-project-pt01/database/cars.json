@@ -1,0 +1,23 @@
+[
+  {
+    "id": "f15e5e65-6a80-4e0b-a3d9-233b7d747c44",
+    "name": "Prius",
+    "releaseYear": 2024,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "f09ef976-33c6-4f60-a795-da21c60e6992",
+    "name": "Alpine",
+    "releaseYear": 2025,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "299da99f-f5a1-43be-8fb4-9f6ad25f73ed",
+    "name": "PT Cruiser",
+    "releaseYear": 2024,
+    "available": true,
+    "gasAvailable": true
+  }
+]
