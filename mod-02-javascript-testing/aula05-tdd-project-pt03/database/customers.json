@@ -1,0 +1,9 @@
+[
+  { "id": "3005ec46-4808-4218-abb9-c77a1ef1850c", "name": "Skye", "age": 29 },
+  {
+    "id": "a008e647-bf68-4368-b0dc-bf9b9a7c9bc6",
+    "name": "Rosalinda",
+    "age": 30
+  },
+  { "id": "a218fc66-1236-4a75-84c0-78eef156853c", "name": "Casey", "age": 28 }
+]
