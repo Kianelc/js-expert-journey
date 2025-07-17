@@ -1,8 +1,13 @@
 import database from "./../database.json";
 import Person from "./person.js";
+import { save } from "./repository.js";
 import TerminalController from "./terminalController.js";
 
 const DEFAULT_LANG = "pt-BR";
+//onst DEFAULT_LANG = "es";
+//const DEFAULT_LANG = "en";
+//const DEFAULT_LANG = "rus";
+
 const STOP_TERM = ":q";
 
 const terminalController = new TerminalController();
@@ -17,7 +22,8 @@ async function mainLoop() {
       return;
     }
     const person = Person.generateInstanceFromString(answer);
-    console.log("person", person.formatted(DEFAULT_LANG));
+    terminalController.updateTable(person.formatted(DEFAULT_LANG));
+    await save(person);
 
     return mainLoop();
   } catch (error) {
@@ -27,3 +33,6 @@ async function mainLoop() {
 }
 
 await mainLoop();
+
+//3 Aviao,Navio 100000 2001-08-10 2006-09-01
+//2 Bike 20000 2020-01-01 2020-08-01
