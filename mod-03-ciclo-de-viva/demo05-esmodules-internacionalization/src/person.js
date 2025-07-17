@@ -35,4 +35,17 @@ export default class Person {
       }).format(mapDate(this.to)),
     };
   }
+
+  static generateInstanceFromString(text) {
+    const EMPTY_SPACE = " ";
+    const [id, vehicles, kmTraveled, from, to] = text.split(EMPTY_SPACE);
+    const person = new Person({
+      id,
+      kmTraveled,
+      vehicles: vehicles.split(","),
+      from,
+      to,
+    });
+    return person;
+  }
 }
