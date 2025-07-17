@@ -3,7 +3,6 @@ import chalk from "chalk";
 import chalkTable from "chalk-table";
 import readline from "readline";
 import Person from "./person.js";
-import { resolve } from "path";
 
 export default class TerminalController {
   constructor() {
@@ -26,6 +25,11 @@ export default class TerminalController {
     const table = chalkTable(this.getTableOptions(), data);
     this.print = console.draft(table);
     this.data = data;
+  }
+
+  updateTable(item) {
+    this.data.push(item);
+    this.print(chalkTable(this.getTableOptions(), this.data));
   }
 
   question(msg = "") {

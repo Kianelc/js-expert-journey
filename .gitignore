@@ -35,3 +35,9 @@ coverage/
 
 # Outros
 *.tsbuildinfo
+
+# Pasta gerada pelo nyc (coverage)
+.nyc_output/
+
+# Pasta gerada pelo reify
+.reify-cache/
